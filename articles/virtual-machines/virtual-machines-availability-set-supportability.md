@@ -33,3 +33,5 @@ Series & Availability Set|Second VM|A|Av2|D|Dv2|Dv3|
 |Dv3||OK|OK|OK|OK|OK|
 
 All other series could not be in the same availability set because they require a specific hardware.
+
+Note: Standard A8 and A9 have dedicated RDMA network and can't be shared between cluster. More information: https://docs.microsoft.com/en-us/azure/virtual-machines/windows/sizes-hpc
